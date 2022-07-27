@@ -21,3 +21,6 @@
 .img-back{
     background-color: #F4FAFD;
 }
+.fa-star, .fa-star-half-stroke{
+    color: goldenrod;
+}

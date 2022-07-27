@@ -6,10 +6,17 @@
     color: #4A4A4A;
 }
 
-.dark3{
+.dark3 {
     color: #777777;
 }
 
 .button-color {
     background-color: #289BDE;
+}
+
+.course-border {
+    border-color: #E8E8E8;
+}
+.img-back{
+    background-color: #F4FAFD;
 }

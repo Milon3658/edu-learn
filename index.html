@@ -64,18 +64,22 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="10000">
                         <figure class="bg-dark">
-                            <img src="images/cover/cover-1.png" class="d-block w-100 border-5 opacity-50" alt="...">
+                            <img src="images/cover/cover-1.png" class="d-block w-100 border-5 opacity-50 img-fluid max-width: 100% h-auto"
+                                alt="...">
                         </figure>
+                        <div class="carousel-caption res">
+                            <div class="d-flex flex-column justify-content-center align-items-center">
+                                <span><h1 class="fw-bolder text-white h1-size-small mb-sm-0 mb-lg-3">Get Started Digital <br> Learning</h1></span>
+                                <p class="text-white mb-sm-0 p-small mb-lg-3">It is a long established fact that a reader will be distracted by the
+                                    readable <br> content of a page when looking at its layout.</p>
+                                <button class="btn button-color text-white small-button" type="submit">Get Started</button>
+                            </div>
+    
+                        </div>
                     </div>
-                    <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
-                        <h1 class="fs-1 fw-bolder text-white">Get Started Digital <br> Learning</h1>
-                        <p class="text-white">It is a long established fact that a reader will be distracted by the
-                            readable <br>
-                            content of
-                            a page when looking at its layout.</p>
-                        <button class="btn button-color text-white" type="submit">Get Started</button>
-                    </div>
-                    <div class="carousel-item" data-bs-interval="10000">
+
+                   
+                    <!-- <div class="carousel-item" data-bs-interval="10000">
                         <img src="images/cover/cover-2.jpg" class="d-block w-100 border-5  opacity-50" alt="...">
                     </div>
                     <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
@@ -96,7 +100,7 @@
                             content of
                             a page when looking at its layout.</p>
                         <button class="btn button-color text-white" type="submit">Get Started</button>
-                    </div>
+                    </div> -->
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
                     data-bs-slide="prev">
@@ -129,7 +133,6 @@
         </div>
 
         <!-- course grid  -->
-
 
         <div class="container row row-cols-1 row-cols-lg-2 gap-5 mx-auto justify-content-center mb-5">
             <div class="card mb-auto p-0" style="max-width: 540px;">
@@ -267,7 +270,7 @@
 
         <!-- ready  -->
 
-        <div class="container card text-center button-color mb-5 p-5">
+        <div class="container card text-center button-color mb-lg-5 p-lg-5">
             <div class="card-body  d-flex flex-lg-row flex-column justify-content-between align-items-center">
                 <div>
                     <h1 class="text-white">Ready to join?</h1>
@@ -298,7 +301,7 @@
         <!-- success students  -->
 
         <div class="container mb-5">
-            <div class="row row-cols-1 row-cols-md-4 g-4 mb-4">
+            <div class="row row-cols-1 row-cols-lg-4 row-cols-md-2 g-4 mb-4">
                 <div class="col">
                     <div class="card">
                         <img src="images/student/student-1.png" class="card-img-top" alt="...">
@@ -336,10 +339,13 @@
                     </div>
                 </div>
             </div>
-            <div class="container d-flex justify-content-center mb-5">
-                <button type="button" class="btn button-color text-white">See more courses</button>
+            <div class="container d-lg-flex justify-content-lg-center justify-content-sm-center mb-5 d-md-none">
+                <button type="button" class="btn button-color text-white">View all</button>
             </div>
         </div>
+
+        
+
         <div class="d-flex flex-column justify-content-center align-items-center mb-5">
             <h1 class="text-center">
                 Some Students Feedback
@@ -350,9 +356,9 @@
                 looking at its layout.
             </p>
         </div>
- 
+
         <div class="container d-flex flex-column flex-lg-row justify-content-between mb-5">
-            <div class="p-5 course-border shadow-lg"> 
+            <div class="p-5 course-border shadow-lg">
                 <div class="d-flex flex-row justify-content-between mb-3">
                     <img src="images/comma.png" alt="">
                     <div>
@@ -365,7 +371,8 @@
                 </div>
                 <p class="dark3 mb-3">
                     There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered
-                    alteration in some form, by injected <br> humour, or randomised words which don't look even slightly <br>
+                    alteration in some form, by injected <br> humour, or randomised words which don't look even slightly
+                    <br>
                     believable. If you are going to use a passage of Lorem.
                 </p>
                 <div class="d-flex flex-row align-items-center">
@@ -389,7 +396,8 @@
                 </div>
                 <p class="dark3 mb-3">
                     There are many variations of passages of Lorem Ipsum available, but <br> the majority have suffered
-                    alteration in some form, by injected <br> humour, or randomised words which don't look even slightly <br>
+                    alteration in some form, by injected <br> humour, or randomised words which don't look even slightly
+                    <br>
                     believable. If you are going to use a passage of Lorem.
                 </p>
                 <div class="d-flex flex-row align-items-center">
@@ -402,6 +410,74 @@
             </div>
 
         </div>
+
+        <div class="container d-lg-none d-md-flex d-sm-flex justify-content-center mb-5">
+            <button type="button" class="btn button-color text-white">View all</button>
+        </div>
+
+        <!-- student feedback end  -->
+
+        <!-- FAQ section  -->
+        <div class="container d-flex flex-column mb-5 align-items-center">
+            <h1 class="dark1 text-center">
+                Frequently Asked Questions
+            </h1>
+            <p class="dark3 text-center">
+                It is a long established fact that a reader will be distracted by the <br> readable content of a page
+                when
+                looking at its layout.
+            </p>
+        </div>
+
+        <!-- Questions  -->
+       <div class="container ps-5 pe-5 mb-5">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                  Accordion Item #1
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                <div class="accordion-body">
+                  <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                  Accordion Item #2
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
+                <div class="accordion-body">
+                  <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                  Accordion Item #3
+                </button>
+              </h2>
+              <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
+                <div class="accordion-body">
+                  <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+
+       <h1 class="dark1 text-center">
+        Trusted by over 800+ companies
+       </h1>
+
+       
+
+
     </main>
 </body>
 

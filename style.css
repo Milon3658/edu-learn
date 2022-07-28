@@ -18,9 +18,40 @@
 .course-border {
     border-color: #E8E8E8;
 }
-.img-back{
+
+.img-back {
     background-color: #F4FAFD;
 }
-.fa-star, .fa-star-half-stroke{
+
+.fa-star,
+.fa-star-half-stroke {
     color: goldenrod;
+}
+
+@media screen and (max-width: 768px) {
+    .h1-size-small {
+        font-size: 16px;
+    }
+
+    .p-small {
+        font-size: 12px;
+    }
+
+    .small-button {
+        height: 40px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 768px) {
+    .res {
+        position: absolute;
+        top: 50%;
+        bottom: 50%;
+        /* margin-bottom: 100px; */
+    }
+
+
 }

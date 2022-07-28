@@ -14,6 +14,9 @@
     background-color: #289BDE;
     color: #289BDE;
 }
+.pricecolor{
+    color: #289BDE;
+}
 
 .course-border {
     border-color: #E8E8E8;
@@ -45,13 +48,24 @@
 
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
+    .h1-size-small {
+        font-size: 55px;
+    }
     .res {
         position: absolute;
-        top: 50%;
+        top: 30%;
         bottom: 50%;
         /* margin-bottom: 100px; */
     }
 
+
+
+    .hov:hover{
+
+        background-color: #289BDE;
+        color:white;
+        border: #289BDE;
+    }
 
 }

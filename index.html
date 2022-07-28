@@ -291,21 +291,35 @@
                     </p>
                 </div>
 
-                <button type="button" class="btn bg-white pricecolor" id="liveToastBtn">Register</button>
-                <div class="toast-container position-fixed bottom-0 end-0 p-3">
+                <button onclick="" type="button" class="btn bg-white pricecolor" id="liveToastBtn">Register</button>
+                <div class="bg-light toast-container  position-fixed end-0 top-0 p-3">
                     <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
                         <div class="toast-header">
-                            <img src="..." class="rounded me-2" alt="...">
-                            <strong class="me-auto">Bootstrap</strong>
-                            <small>11 mins ago</small>
+                            <strong class="me-auto">Edu Learn</strong>
+                           
                             <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                         </div>
                         <div class="toast-body">
-                            Hello, world! This is a toast message.
+                            <form>
+                                <div class="mb-3">
+                                  <label for="exampleInputEmail1" class="form-label">Enter Your Email address</label>
+                                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                                  <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                                </div>
+                                <div class="mb-3">
+                                  <label for="exampleInputPassword1" class="form-label">Enter Your Password</label>
+                                  <input type="password" class="form-control" id="exampleInputPassword1">
+                                </div>
+                                <div class="mb-3 form-check">
+                                  <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                                  <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Create Account</button>
+                              </form>
                         </div>
                     </div>
                 </div>
-                <!-- <script>
+                <script>
                     const toastTrigger = document.getElementById('liveToastBtn')
                     const toastLiveExample = document.getElementById('liveToast')
                     if (toastTrigger) {
@@ -315,7 +329,7 @@
                             toast.show()
                         })
                     }
-                </script> -->
+                </script>
             </div>
         </div>
 
@@ -391,7 +405,7 @@
         </div>
 
         <div
-            class="container d-flex flex-column d-md-flex flex-md-column flex-lg-row justify-content-lg-evenly justify-content-md-between mb-5">
+            class="container d-flex flex-column d-md-flex flex-md-column flex-lg-row justify-content-lg-evenly justify-content-md-between mb-5 gap-lg-4">
             <div class="ps-5 pe-5 pb-3 pt-3 course-border shadow-sm">
                 <div class="d-flex flex-row justify-content-between mb-3">
                     <img src="images/comma.png" alt="">
@@ -544,12 +558,7 @@
                 <img src="images/company/company-6.png" alt="">
             </div>
         </div>
-
-
-
         <!-- footer  -->
-
-
         <footer class=" bg-black h-100 d-flex flex-column justify-content-center align-items-center">
 
             <h1 class="text-white  mb-3 mt-5">Pro Learn</h1>
@@ -561,7 +570,6 @@
                 Privacy Ploicy | Terms of use
             </p>
             <div class="mb-5">
-
                 <i class="fa-brands fa-facebook text-white fs-4 me-2"></i>
                 <i class="fa-brands fa-twitter text-white fs-4 me-2 "></i>
                 <i class="fa-brands fa-linkedin text-white fs-4 me-2"></i>
@@ -570,5 +578,4 @@
         </footer>
     </main>
 </body>
-
 </html>

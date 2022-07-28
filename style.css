@@ -1,3 +1,8 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Montserrat&family=Poppins:wght@100;400&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .dark1 {
     color: #1D1D1D;
 }
@@ -31,6 +36,7 @@
     color: goldenrod;
 }
 
+/* Mobile  */
 @media screen and (max-width: 768px) {
     .h1-size-small {
         font-size: 16px;
@@ -41,14 +47,42 @@
     }
 
     .small-button {
-        height: 40px;
+        font-size: 12px;
+        height: 30px;
+        width: auto;
     }
 
-
-
+    .res {
+        position: absolute;
+        top: 2%;
+        /* margin-bottom: 100px; */
+    }
 }
 
-@media screen and (min-width: 750px) {
+/* tablet  */
+@media screen and (min-width:770px) and (max-width:1024px) {
+    .h1-size-small {
+        font-size: 24px;
+    }
+    .p-small {
+        font-size: 12px;
+    }
+    .over{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: 40px;
+    }
+    .res {
+        position: absolute;
+        top: 30%;
+        /* margin-bottom: 100px; */
+    }
+}
+
+/* Computer  */
+
+@media screen and (min-width: 1120px) {
     .h1-size-small {
         font-size: 55px;
     }

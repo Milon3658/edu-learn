@@ -57,6 +57,9 @@
         top: 2%;
         /* margin-bottom: 100px; */
     }
+    .working{
+        width: 100% !important;
+    }
 }
 
 /* tablet  */
